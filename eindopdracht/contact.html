@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="logo"><img src="images/logo.webp" alt="Het logo van Hololive"></a>
+        <section class="nav-content">
+            <a href="">Actuele Events</a>
+            <a href="https://hololivepro.com/en/" target="_blank">Opkomende Events</a>
+            <a href="">Meetings</a>
+            <a href="#rating">Event Ratings</a>
+            <a href="contact.html">Schrijf je in! </a>
+        </section>
+    </nav>
+    <header>
+        <section>
+            <h1>Contact</h1>
+            <p>Neem contact met ons op voor updates over evenementen binnen de community, evenementen rondom Hololive en
+                voor meer! Je kan jezelf ook inschrijven voor onze maandelijkse nieuwsbrief. Deze bevat maandelijkse
+                updates
+                rondom komende evenementen en evenementen die al afgelopen zijn, en updates over ons programma for onze
+                Nederlandse community</p>
+        </section>
+    </header>
+    <main>
+        <h2>Contact-formulier</h2>
+        <form>
+            <div class="name">
+                <section class="form-data">
+                    <label for="first-name" class="form-label">Voornaam</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Voornaam">
+                </section>
+                <section class="form-data">
+                    <label for="last-name" class="form-label">Achternaam</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Achternaam">
+                </section>
+            </div>
+            <section class="form-data">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </section>
+            <div class="adres-and-birthdate">
+                <section class="form-data">
+                    <label for="city" class="form-label">Woonplaats</label>
+                    <input type="text" name="city" id="city" placeholder="Woonplaats">
+                </section>
+                <section class="form-data">
+                    <label for="birth-date" class="form-label">Geboortedatum</label>
+                    <input type="date" name="birth-date" id="birth-date">
+                </section>
+            </div>
+            <section class="form-data">
+                <label for="topic" class="form-label">Onderwerp</label>
+                <select name="topic" id="topic">
+                    <option value="">Kies onderwerp van het bericht...</option>
+                </select>
+            </section>
+            <section class="form-data">
+                <label for="message" class="form-label">Bericht</label>
+                <textarea name="message" id="message"></textarea>
+            </section>
+            <section class="form-data">
+                <label for="yes" class="form-label">Inschrijven voor nieuwsbrief?</label>
+                <div class="newsletter-options">
+                    <section class="newsletter">
+                        <input type="radio" name="menu" id="yes" value="yes">
+                        <label for="yes">Ja</label>
+                    </section>
+                    <section class="newsletter">
+                        <input type="radio" name="menu" id="no" value="no">
+                        <label for="no">Nee</label>
+                    </section>
+                </div>
+            </section>
+            <section class="formcheck">
+                <input type="checkbox" name="legal" id="legal" value="checked" required>
+                <label for="legal">Ik ga akkoord met de algemene voorwaarden</label>
+            </section>
+            <button type="submit" onclick="">Verzenden</button>
+        </form>
+    </main>
+    <footer>
+        <div class="copyright">
+            <a href="index.html" class="logo"><img src="images/logo.webp" alt="Het logo van Hololive"></a>
+            <p>Copyright 2024 THETA inc.</p>
+        </div>
+        <div class="footer-content">
+            <a href="">Privacyverklaring</a>
+            <a href="">Algemene Voorwaarden</a>
+            <a href="">Cookiebeleid</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </footer>
+</body>
+
+</html>
